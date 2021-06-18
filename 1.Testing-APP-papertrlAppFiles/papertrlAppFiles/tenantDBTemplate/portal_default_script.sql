@@ -121,6 +121,27 @@ LOCK TABLES `ar17` WRITE;
 UNLOCK TABLES;
 
 --
+-- Table structure for table `ar18`
+--
+
+DROP TABLE IF EXISTS `ar18`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `ar18` (
+  `address_line_1` varchar(75) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `ar18`
+--
+
+LOCK TABLES `ar18` WRITE;
+/*!40000 ALTER TABLE `ar18` DISABLE KEYS */;
+/*!40000 ALTER TABLE `ar18` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `ar6`
 --
 
@@ -192,4 +213,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-06-18 15:09:04
+-- Dump completed on 2021-06-18 15:10:05
