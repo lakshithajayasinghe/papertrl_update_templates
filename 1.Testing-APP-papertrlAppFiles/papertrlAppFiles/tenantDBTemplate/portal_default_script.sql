@@ -41,6 +41,31 @@ LOCK TABLES `Persons` WRITE;
 UNLOCK TABLES;
 
 --
+-- Table structure for table `Persons1`
+--
+
+DROP TABLE IF EXISTS `Persons1`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `Persons1` (
+  `PersonID` int(11) DEFAULT NULL,
+  `LastName` varchar(255) DEFAULT NULL,
+  `FirstName` varchar(255) DEFAULT NULL,
+  `Address` varchar(255) DEFAULT NULL,
+  `City` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `Persons1`
+--
+
+LOCK TABLES `Persons1` WRITE;
+/*!40000 ALTER TABLE `Persons1` DISABLE KEYS */;
+/*!40000 ALTER TABLE `Persons1` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `ar24`
 --
 
@@ -91,4 +116,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-07-31 11:19:49
+-- Dump completed on 2021-07-31 11:24:05
