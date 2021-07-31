@@ -16,6 +16,31 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
+-- Table structure for table `Persons`
+--
+
+DROP TABLE IF EXISTS `Persons`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `Persons` (
+  `PersonID` int(11) DEFAULT NULL,
+  `LastName` varchar(255) DEFAULT NULL,
+  `FirstName` varchar(255) DEFAULT NULL,
+  `Address` varchar(255) DEFAULT NULL,
+  `City` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `Persons`
+--
+
+LOCK TABLES `Persons` WRITE;
+/*!40000 ALTER TABLE `Persons` DISABLE KEYS */;
+/*!40000 ALTER TABLE `Persons` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `ar24`
 --
 
@@ -66,4 +91,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-07-31 10:56:38
+-- Dump completed on 2021-07-31 11:00:32
